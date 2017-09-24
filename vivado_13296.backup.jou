@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jun 02 14:53:54 2017
+# Process ID: 11204
+# Log file: F:/multicpu/vivado.log
+# Journal file: F:/multicpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/multicpu/multicpu.xpr
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+add_wave {{/test/uut/DataMemory/DataIn}} 
+restart
+run 10 ms
+save_wave_config {F:/multicpu/test_behav.wcfg}
+restart
+run 10 ms
+restart
+run 10 ms
+restart
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+run 2000 ns
+save_wave_config {F:/multicpu/test_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 2000 ns
+restart
+run 10 ms
+restart
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+run all
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+launch_simulation

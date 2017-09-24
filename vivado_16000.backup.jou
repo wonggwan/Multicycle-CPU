@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed May 31 19:04:26 2017
+# Process ID: 4680
+# Log file: F:/multicpu/vivado.log
+# Journal file: F:/multicpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/multicpu/multicpu.xpr
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+close_sim
+launch_simulation
+open_wave_config F:/multicpu/test_behav.wcfg
+source test.tcl
+restart
+run 10 ms
+close_sim
